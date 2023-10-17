@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const initialState = 'displaying all anecdotes'
+const initialState = null
 
 const notificationSlicer = createSlice({
   name: 'notification',
@@ -9,8 +9,11 @@ const notificationSlicer = createSlice({
     notificationChange(state, action) {
       return action.payload
     },
+    notificationHide() {
+      return null
+    }
   },
 })
 
-export const {notificationChange} = notificationSlicer.actions
+export const {notificationChange, notificationHide} = notificationSlicer.actions
 export default notificationSlicer.reducer
