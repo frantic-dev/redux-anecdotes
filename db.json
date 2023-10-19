@@ -47,12 +47,12 @@
     },
     {
       "content": "i just wana be happy",
-      "votes": 0,
+      "votes": 1,
       "id": "oQ4mDcJ"
     },
     {
       "content": "this is something different",
-      "votes": 5,
+      "votes": 22,
       "id": "p2qJ0lt"
     },
     {
@@ -62,8 +62,18 @@
     },
     {
       "content": "wtf",
-      "votes": 5,
+      "votes": 6,
       "id": "f7n7A60"
+    },
+    {
+      "content": "it is what it is",
+      "votes": 0,
+      "id": "unyLNJi"
+    },
+    {
+      "content": "creating a new anec",
+      "votes": 0,
+      "id": "nzuPIfu"
     }
   ]
 }
